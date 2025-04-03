@@ -29,6 +29,7 @@ Link for Dataset: - https://susanqq.github.io/UTKFace/
 -- Apply prediction function by giving any image path from your device
 
 ## Code
+''
 from tensorflow.keras.models import load_model  # Direct import
 cnn_model = load_model("gender_cnn_model.keras", compile=False)
 cnn_model.compile(optimizer="adam", loss="binary_crossentropy", metrics=["accuracy"])
@@ -49,6 +50,7 @@ feature_extractor = load_model("feature_extractor.keras")
 import pickle
 with open("predict_function.pkl", "rb") as f:
     loaded_function = pickle.load(f)
+''
 
 -- by calling function and giving path of image as input you get your predicted output
 
