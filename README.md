@@ -1,7 +1,3 @@
-# Open_CV_Project
-
-Link for Dataset: - https://susanqq.github.io/UTKFace/
-
 # Gender Classification Using Machine Learning & Deep Learning
 
 ## Features
@@ -19,11 +15,16 @@ Link for Dataset: - https://susanqq.github.io/UTKFace/
 │   ├── xgb_model.pkl        		# Trained XGBoost model
 │   ├── feature_extractor.keras 	# Trained MobileNetV2 feature extractor
 │   ├── cnn_model.keras        	# Trained CNN model
-│── predict_function.pkl            # Main script for running predictions
+│── Main.py                         # Main script for running predictions
 │── requirements.txt         		# Dependencies file
-│── README.md                		# Documentation file
+│── README.md                       # Documentation file
+|── Trail images                    # Images to test the model prediction             		
 
 ## Implementation
--- Upload all the .pkl and .keras file into the Home of Jupyter Notebook
--- Call all the .pkl and .keras file into new notebook
--- Apply prediction function by giving any image path from your device
+-- First run the requirements.txt by providing the filr path {'pip install -r file_path'}
+-- Then run Main.py file by providing path of file {'python file_path'}
+-- Provide image path without quotes and then you will get prediction for uploaded image
+
+
+### Repository Link
+🔗 [GitHub Repository](https://github.com/Nikhil-Patil-07/Open_CV_Project)
