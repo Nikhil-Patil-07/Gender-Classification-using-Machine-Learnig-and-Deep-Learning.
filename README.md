@@ -2,6 +2,9 @@
 
 Link for Dataset: -https://susanqq.github.io/UTKFace/
 
+## About Dataset
+  The UTKFace dataset, available on Susanqq's GitHub page, is a large-scale face dataset containing over 20,000 images labeled with age, gender, and ethnicity information. Each image is named in the format age_gender_ethnicity.jpg, where the second value represents gender (0 for male and 1 for female). This dataset is widely used for tasks such as age estimation, gender classification, and ethnicity recognition. Given its diversity in age range (0–116 years) and ethnicity labels (White, Black, Asian, Indian, and Others), it serves as a valuable resource for training and evaluating machine learning models in facial analysis. For your gender classification project, you can extract the gender labels and preprocess the dataset accordingly to achieve high-accuracy predictions.
+
 ## Features
 - Pre-trained **ML models (`.pkl`)** and **DL models (`.keras`)** for gender classification.
 - Uses **OpenCV** for image processing.
@@ -23,8 +26,9 @@ Link for Dataset: -https://susanqq.github.io/UTKFace/
 |── Trail images                    # Images to test the model prediction             		
 
 ## Implementation
--- First run the requirements.txt by providing the filr path {'pip install -r file_path'}
--- Then run Main.py file by providing path of file {'python file_path'}
+-- Store all the .pkl and .keras and only Main.py files in one folder and other remaining files outside the folder
+-- Then run the requirements.txt by providing the filr path {'pip install -r file_path'} in terminal 
+-- Then run Main.py file by providing path of file {'python file_path'} in terminal 
 -- Provide image path without quotes and then you will get prediction for uploaded image
 
 
